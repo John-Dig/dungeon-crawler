@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Dungeon Crawler</title>
+</head>
+
+<body>
+  <h1 class="title">Dungeon Crawler</h1>
+  <div class="choose-character" id="choose-character-id">
+    <div id="hero-info">
+      <h1>Choose Your Character</h1>
+      <div class="classes">
+        <div class="warrior" id="warrior-class">
+          <h3>Warrior</h3>
+          <img src="assets/images/warrior-idle.gif" alt="warrior">
+          <p>HP: 10 <br>AP: 10<br> DX: 10</p>
+        </div>
+        <div class="mage" id="mage-class">
+          <h3>Mage</h3>
+          <img src="assets/images/wizard-idle.gif" alt="wizard">
+          <p>HP: 8<br>AP: 17<br> DX: 5</p>
+        </div>
+        <div class="rogue" id="rogue-class">
+          <h3>Rogue</h3>
+          <img src="assets/images/rogue-idle.gif" alt="rogue">
+          <p>HP: 7 <br>AP: 10<br> DX: 13</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="hidden" id="enemy-info">
+    <h1 class="hidden" id="enemy-name">Name</h1>
+    <h1 class="hidden" id="enemy-hp">HP</h1>
+    <h1 class="hidden" id="enemy-ap">AP</h1>
+  </div>
+  <div class="room">
+    <div class="monster">
+      <div class="monster-images">
+        <img src="assets/images/slime.gif" alt="slime" class="hidden" id="slime">
+        <img src="assets/images/zombie.gif" alt="zombie" class="hidden" id="zombie">
+        <img src="assets/images/demon.gif" alt="demon" class="hidden" id="demon">
+        <img src="assets/images/goblin.gif" alt="goblin" class="hidden" id="goblin">
+        <img src="assets/images/troll.gif" alt="troll" class="hidden" id="troll">
+        <img src="assets/images/vampire.gif" alt="vampire" class="hidden" id="vampire">
+        <img src="assets/images/dragon.gif" alt="dragon" class="hidden" id="dragon">
+        <img src="assets/images/cthulu.gif" alt="cthulu" class="hidden" id="Cthulu">
+      </div>
+    </div>
+
+
+
+    <div class="items" id="items">
+      <div class="potion-images" id="potion-images">
+
+          <img src="assets/images/swift-potion.gif" alt="swift" class="hidden" id="swift">
+          <p class="hidden" id="swift1">A swift potion</p>
+          <img src="assets/images/magic-potion.gif" alt="magic potion" class="hidden" id="magic">
+          <p class="hidden" id="magic1">A magic potion</p>
+          <img src="assets/images/strength-potion.gif" alt="strength-potion" class="hidden" id="strength">
+          <p class="hidden" id="strength1">A strength potion</p>
+        <img src="assets/images/health-potion.gif" alt="health-potion" class="hidden" id="Health-Potion">
+          <p class="hidden" id="Health-Potion1">A health potion</p>
+      </div>
+      <div class="weapon-images">
+          <img src="assets/images/wand.gif" alt="staff" class="hidden" id="staff">
+            <p class="hidden" id="staff1">A Staff useful for Mages</p>
+          <img src="assets/images/dagger.png" alt="dagger" class="hidden" id="dagger">
+            <p class="hidden" id="dagger1">A Dagger useful for Rogues</p>
+          <img src="assets/images/sword.gif" alt="sword" class="hidden" id="sword">
+            <p class="hidden" id="sword1">A Sword useful for Warrior</p>
+      </div>
+    </div>
+  </div>
+<div id="combat">
+  <h3 id="hero-message"></h3>
+  <h3 id="monster-message"></h3>
+</div>
+
+  <div class="bottom hidden" id="bottom-div">
+    <div class="buttons">
+    <div class="hidden" id="combat-buttons">
+      <button class="hidden" id="attack-button">Attack</button>
+      <button class="hidden" id="dodge-button">Dodge</button>
+      <button class="hidden" id="run-button">Run</button>
+    </div>
+    <div class="item-buttons">
+      <button class="hidden" id="pick-up-button">Pick Up</button>
+      <button class="hidden" id="continue-button">Continue</button>
+    </div>
+  </div>
+    <div class="bottom-ui">
+      <div class="hero">
+        <img src="assets/images/warrior-idle.gif" alt="warrior" class="hidden" id="warrior-img">
+        <img src="assets/images/wizard-idle.gif" alt="wizard" class="hidden" id="mage-img">
+        <img src="assets/images/rogue-idle.gif" alt="rogue" class="hidden" id="rogue-img">
+      </div>
+      <h3 id="hero-level">Level: </h3>
+      <h3 id="hero-xp">XP: </h3>
+      <h3 id="hero-health">Health: </h3>
+      <h3 id="hero-ap">AP:</h3>
+      <h3 id="hero-dex">DEX: </h3>
+    </div>
+
+  </div>
+<script src="bundle.js"></script></body>
+
+</html>
