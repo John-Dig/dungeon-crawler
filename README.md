@@ -1,7 +1,5 @@
 # Dungeon Crawler
 
-(Application Name)
-
 #### By Zachary Cipolletta, Stephan Zook, James Provance, John Diggins
 
 ## Technologies Used
@@ -18,7 +16,10 @@
 
 ## Setup/Installation Requirements
 
-Rename name "TEMPLATE" in package.json to reflect new project
+### Easy way:
+Deployed at <https://john-dig.github.io/dungeon-crawler/>
+
+### Optinal way:
 Installing all packages with $ npm install.
 Building the project using webpack with $ npm run build
 Starting a development server with $ npm run start
