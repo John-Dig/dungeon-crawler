@@ -19,7 +19,7 @@
 ### Easy way:
 Deployed at <https://john-dig.github.io/dungeon-crawler/>
 
-### Optinal way:
+### Optional way:
 Installing all packages with $ npm install.
 Building the project using webpack with $ npm run build
 Starting a development server with $ npm run start
